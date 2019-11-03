@@ -11,7 +11,7 @@ def pioneer
 end
 
 def id_generator
- generator={:id => 2}
+ generator={:id => rand()}
 end
 
 def my_hash_creator(key, value)
